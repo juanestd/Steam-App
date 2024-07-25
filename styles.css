@@ -1,104 +1,9 @@
 body {
     background-color: #f7f7f7;
+    font-family: 'Helvetica', sans-serif;
 }
 
-.header {
-    background-color: #a1cbe2;
-    padding: 20px;
-    text-align: center;
-    animation: fadeIn 1s ease-in-out;
-}
-
-.header img {
-    max-width: 100%;
-    height: auto;
-}
-
-.header-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.header-subtitle {
-    font-size: 1.25rem;
-    color: #333;
-}
-
-#searchContainer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    animation: fadeIn 1s ease-in-out;
-}
-
-#searchInput {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.section {
-    background-color: #d4e8f5;
-    margin: 20px 0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: slideIn 0.5s ease-in-out;
-}
-
-.section-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.section-content {
-    font-size: 1.1rem;
-    color: #333;
-    margin-top: 10px;
-}
-
-.btn-custom {
-    background-color: #333;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.btn-custom:hover {
-    background-color: #555;
-    transform: scale(1.05);
-}
-
-.icon-container {
-    font-size: 1.5rem;
-    margin-right: 10px;
-}
-
-.section-menu-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 10px;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.section-menu-button:hover {
-    background-color: #e0e0e0;
-    transform: scale(1.05);
-}
-
-
+/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -118,3 +23,106 @@ body {
         opacity: 1;
     }
 }
+
+.header {
+    background-color: #a1cbe2;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.header-title {
+    font-size: 1.8rem; /* Aumentado para mayor impacto */
+    font-weight: bold;
+    color: #333;
+}
+
+.header-subtitle {
+    font-size: 1.2rem; /* Aumentado para mayor claridad */
+    color: #555;
+    margin-top: 10px; /* Espaciado entre el título y el subtítulo */
+}
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in 0.5s;
+}
+
+.search-container input {
+    max-width: 600px; /* Ampliado para un mejor ajuste */
+    margin: auto;
+    padding: 10px; /* Añadido relleno para mayor confort */
+}
+
+.section {
+    background-color: #d4e8f5;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-out;
+    text-align: center; /* Centramos el texto y las imágenes dentro de la sección */
+}
+
+.section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-image {
+    max-width: 50%; /* Ajustado para un tamaño más adecuado */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px auto; /* Centrado y espaciado */
+    display: block;
+}
+
+.section-title {
+    font-size: 1.8rem; /* Aumentado para mayor impacto */
+    font-weight: bold;
+    color: #333;
+}
+
+.section-content {
+    font-size: 1.2rem; /* Aumentado para mayor legibilidad */
+    color: #333;
+    margin-top: 10px;
+}
+
+.btn-custom {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px; /* Aumentado para un mejor ajuste */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px; /* Espaciado entre botones */
+}
+
+.btn-custom:hover {
+    background-color: #555;
+}
+
+.section-menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+    margin-bottom: 10px; /* Espaciado entre botones */
+}
+
+.icon-container {
+    margin-right: 10px;
+}
+
