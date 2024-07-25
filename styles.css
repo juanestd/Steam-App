@@ -38,15 +38,15 @@ body {
 }
 
 .header-title {
-    font-size: 1.8rem; /* Aumentado para mayor impacto */
+    font-size: 1.8rem; 
     font-weight: bold;
     color: #333;
 }
 
 .header-subtitle {
-    font-size: 1.2rem; /* Aumentado para mayor claridad */
+    font-size: 1.2rem; 
     color: #555;
-    margin-top: 10px; /* Espaciado entre el título y el subtítulo */
+    margin-top: 10px; 
 }
 
 .search-container {
@@ -56,9 +56,9 @@ body {
 }
 
 .search-container input {
-    max-width: 600px; /* Ampliado para un mejor ajuste */
+    max-width: 600px; 
     margin: auto;
-    padding: 10px; /* Añadido relleno para mayor confort */
+    padding: 10px; 
 }
 
 .section {
@@ -69,7 +69,7 @@ body {
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: slideIn 1s ease-out;
-    text-align: center; /* Centramos el texto y las imágenes dentro de la sección */
+    text-align: center; 
 }
 
 .section:hover {
@@ -78,21 +78,21 @@ body {
 }
 
 .section-image {
-    max-width: 50%; /* Ajustado para un tamaño más adecuado */
+    max-width: 50%; 
     height: auto;
     border-radius: 10px;
-    margin: 10px auto; /* Centrado y espaciado */
+    margin: 10px auto; 
     display: block;
 }
 
 .section-title {
-    font-size: 1.8rem; /* Aumentado para mayor impacto */
+    font-size: 1.8rem; 
     font-weight: bold;
     color: #333;
 }
 
 .section-content {
-    font-size: 1.2rem; /* Aumentado para mayor legibilidad */
+    font-size: 1.2rem; 
     color: #333;
     margin-top: 10px;
 }
@@ -103,10 +103,10 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 25px;
-    padding: 12px 24px; /* Aumentado para un mejor ajuste */
+    padding: 12px 24px; 
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 5px; /* Espaciado entre botones */
+    margin: 5px; 
 }
 
 .btn-custom:hover {
@@ -119,7 +119,7 @@ body {
     justify-content: center;
     text-align: center;
     animation: fadeIn 1s ease-in;
-    margin-bottom: 10px; /* Espaciado entre botones */
+    margin-bottom: 10px; 
 }
 
 .icon-container {
